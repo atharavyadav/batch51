@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-02-22T07:32:02 IST" name="Default suite" finished-at="2025-02-22T07:32:09 IST" duration-ms="6920">
+    <groups>
+    </groups>
+    <test started-at="2025-02-22T07:32:02 IST" name="Default test" finished-at="2025-02-22T07:32:09 IST" duration-ms="6920">
+      <class name="TestCases.useCase1_createUser">
+        <test-method is-config="true" signature="launchbrowser()[pri:0, instance:TestCases.useCase1_createUser@24313fcc]" started-at="2025-02-22T07:32:02 IST" name="launchbrowser" finished-at="2025-02-22T07:32:08 IST" duration-ms="6085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchbrowser -->
+        <test-method signature="enterContactInformation()[pri:0, instance:TestCases.useCase1_createUser@24313fcc]" started-at="2025-02-22T07:32:08 IST" name="enterContactInformation" finished-at="2025-02-22T07:32:08 IST" duration-ms="40" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterContactInformation -->
+        <test-method signature="mailinfromation()[pri:0, instance:TestCases.useCase1_createUser@24313fcc]" started-at="2025-02-22T07:32:08 IST" name="mailinfromation" finished-at="2025-02-22T07:32:08 IST" duration-ms="13" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- mailinfromation -->
+        <test-method signature="userinfromation()[pri:0, instance:TestCases.useCase1_createUser@24313fcc]" started-at="2025-02-22T07:32:08 IST" name="userinfromation" finished-at="2025-02-22T07:32:08 IST" duration-ms="10" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- userinfromation -->
+        <test-method is-config="true" signature="closebrowser()[pri:0, instance:TestCases.useCase1_createUser@24313fcc]" started-at="2025-02-22T07:32:08 IST" name="closebrowser" finished-at="2025-02-22T07:32:09 IST" duration-ms="559" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- closebrowser -->
+      </class> <!-- TestCases.useCase1_createUser -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
