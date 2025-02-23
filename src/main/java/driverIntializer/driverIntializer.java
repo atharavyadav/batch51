@@ -16,10 +16,12 @@ public static WebDriver driver;
   if (resusebaleData.browserCateogry.equals("chrome")) {
    System.setProperty(resusebaleData.chromedriverType, resusebaleData.chromedriverPath);
     driver = new ChromeDriver();
+    driver.manage().window().maximize();
    driver.get(resusebaleData.url);
   } else if(resusebaleData.browserCateogry.equals("edge")) {
    System.setProperty(resusebaleData.edgedriverType, resusebaleData.edgedriverPath);
     driver = new EdgeDriver();
+    driver.manage().window().maximize();
    driver.get(url);
   } else {
    System.out.println("Invalid browser Type");
