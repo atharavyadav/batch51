@@ -28,5 +28,10 @@ public static WebDriver driver;
   }
 
  }
+ 
+ public static void closebrowser()
+ {
+	 driver.quit();
+ }
 
 }
