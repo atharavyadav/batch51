@@ -3,6 +3,8 @@ package TestCases;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
@@ -31,6 +33,16 @@ public class com_testcase_registerpage {
 		seleniumUIActions.enterValueinUI(resusebaleData.regiterORPath, "Register.ContactInformation.phone.input", "1224");
 	}
 	
+	
+	@Test
+	public void enterMailingInformation() throws IOException
+	{
+     
+		WebElement ele = driverIntializer.driver.findElement(By.xpath("//select[@name='country']"));
+		Select select = new Select(ele);
+		select.selectByValue("AUSTRIA");
+		
+	}
 	@AfterTest
 	public void  closeBrowser()
 	{
