@@ -9,6 +9,7 @@ import org.testng.annotations.Test;
 import driverIntializer.driverIntializer;
 import readerUtils.readDataFromPeropertiesFile;
 import reusableData.resusebaleData;
+import seleniumActions.seleniumUIActions;
 
 public class com_testcase_registerpage {
 	
@@ -22,7 +23,8 @@ public class com_testcase_registerpage {
 	@Test
 	public void enterContactInformation() throws IOException
 	{
-		driverIntializer.driver.findElement(By.xpath(readDataFromPeropertiesFile.readDataFromORProperties(resusebaleData.regoterORPath, "Register.ContactInformation.FirstName.input"))).sendKeys("neelam");
-		driverIntializer.driver.findElement(By.xpath(readDataFromPeropertiesFile.readDataFromORProperties(resusebaleData.regoterORPath, "Register.ContactInformation.LastName.input"))).sendKeys("test");
+
+		seleniumUIActions.enterValueinUI(resusebaleData.regiterORPath, "Register.ContactInformation.FirstName.input", "naeelam");
+		
 	}
 }
