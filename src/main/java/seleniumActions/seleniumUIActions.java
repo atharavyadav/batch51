@@ -18,5 +18,11 @@ public class seleniumUIActions {
 		driverIntializer.driver.findElement(By.xpath(readDataFromPeropertiesFile.readDataFromORProperties(ORPath,ORKey))).sendKeys(inputData);
 		
 	}
+	
+	public static void click(String ORPath,String ORKey,String inputData) throws IOException
+	{
+		driverIntializer.driver.findElement(By.xpath(readDataFromPeropertiesFile.readDataFromORProperties(ORPath,ORKey))).sendKeys(inputData);
+		
+	}
 
 }
