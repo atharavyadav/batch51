@@ -3,6 +3,8 @@ package seleniumActions;
 import java.io.IOException;
 
 import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.Select;
 
 import driverIntializer.driverIntializer;
 import readerUtils.readDataFromPeropertiesFile;
@@ -25,6 +27,12 @@ public class seleniumUIActions {
 		
 	}
 
+	public static void selectDropdownValue(String xpath , String value) throws IOException
+	{		
+		WebElement ele = driverIntializer.driver.findElement(By.xpath(readDataFromPeropertiesFile.readDataFromORProperties(resusebaleData.regiterORPath, xpath)));
+		Select select = new Select(ele);
+		select.selectByValue(value);
+	}
 	
 	
 }

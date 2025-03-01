@@ -38,9 +38,7 @@ public class com_testcase_registerpage {
 	public void enterMailingInformation() throws IOException
 	{
      
-		WebElement ele = driverIntializer.driver.findElement(By.xpath("//select[@name='country']"));
-		Select select = new Select(ele);
-		select.selectByValue("AUSTRIA");
+		seleniumUIActions.selectDropdownValue("Register.MailingInformation.country.select", "");
 		
 	}
 	@AfterTest
