@@ -1,9 +1,13 @@
 package listneres;
 
+import java.io.IOException;
+
 import org.testng.ITestContext;
 import org.testng.ITestListener;
 import org.testng.ITestNGListener;
 import org.testng.ITestResult;
+
+import seleniumActions.seleniumUIActions;
 
 public class SeleniumListneres implements  ITestListener {
 
@@ -19,13 +23,37 @@ public class SeleniumListneres implements  ITestListener {
 	public void onTestSuccess(ITestResult result) {
 		// TODO Auto-generated method stub
 		ITestListener.super.onTestSuccess(result);
+//		try {
+//			seleniumUIActions.takescreenshot(result.getName());
+//		} catch (IOException e) {
+//			// TODO Auto-generated catch block
+//			e.printStackTrace();
+//		}
+		
 		
 	}
 
 	@Override
 	public void onTestFailure(ITestResult result) {
-		// TODO Auto-generated method stub
-		ITestListener.super.onTestFailure(result);
+	    ITestListener.super.onTestFailure(result);
+	    try {
+	        // Get the current date
+	        String date = new java.text.SimpleDateFormat("yyyy-MM-dd").format(new java.util.Date());
+
+	        // Get the class and method names
+	        String className = result.getTestClass().getName();
+	        String methodName = result.getName();
+
+	        // Create the directory structure
+	        String directoryPath = "screenshots/" + date + "/" + className + "/" + methodName;
+	        java.nio.file.Path path = java.nio.file.Paths.get(directoryPath);
+	        java.nio.file.Files.createDirectories(path);
+
+	        // Take the screenshot and save it in the created directory
+	        seleniumUIActions.takescreenshot(directoryPath + "/" + methodName + ".png");
+	    } catch (IOException e) {
+	        e.printStackTrace();
+	    }
 	}
 
 	@Override
