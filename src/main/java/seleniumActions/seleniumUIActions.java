@@ -1,8 +1,12 @@
 package seleniumActions;
 
+import java.io.File;
 import java.io.IOException;
 
+import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.By;
+import org.openqa.selenium.OutputType;
+import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
 
@@ -34,5 +38,12 @@ public class seleniumUIActions {
 		select.selectByValue(value);
 	}
 	
+	public static void takescreenshot() throws IOException
+	{
+		TakesScreenshot ts = (TakesScreenshot)driverIntializer.driver;//take screenshot from UI
+		File file = ts.getScreenshotAs(OutputType.FILE);//convert to 1 type of common file
+		FileUtils.copyFile(file, new File("D:\\eclipse\\Batch51_Cusip\\TestEvidences\\login.png"));
+		
+	}
 	
 }

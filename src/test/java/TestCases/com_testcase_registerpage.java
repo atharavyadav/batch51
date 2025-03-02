@@ -22,6 +22,7 @@ public class com_testcase_registerpage {
 	public void registerPageNavigation()
 	{
 		driverIntializer.launchdriver(resusebaleData.url);
+		
 	}
 
 	@Test
@@ -31,6 +32,7 @@ public class com_testcase_registerpage {
 		seleniumUIActions.enterValueinUI(resusebaleData.regiterORPath, "Register.ContactInformation.FirstName.input", excelReader.readTestDataFromExcel(resusebaleData.excelpath, resusebaleData.sheetname_Contact, 1, 0));
 		seleniumUIActions.enterValueinUI(resusebaleData.regiterORPath, "Register.ContactInformation.LastName.input", excelReader.readTestDataFromExcel(resusebaleData.excelpath, resusebaleData.sheetname_Contact, 1, 1));
 		seleniumUIActions.enterValueinUI(resusebaleData.regiterORPath, "Register.ContactInformation.phone.input", "1224");
+		seleniumUIActions.takescreenshot();
 	}
 	
 	
@@ -38,12 +40,13 @@ public class com_testcase_registerpage {
 	public void enterMailingInformation() throws IOException
 	{
      
-		seleniumUIActions.selectDropdownValue("Register.MailingInformation.country.select", "");
+		seleniumUIActions.selectDropdownValue("Register.MailingInformation.country.select", "ALGERIA");
 		
 	}
 	@AfterTest
 	public void  closeBrowser()
 	{
 		driverIntializer.closebrowser();
+		
 	}
 }
