@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="listneres.SeleniumListneres"/>
+  </listeners>
+  <test thread-count="5" name="Test(failed)" verbose="0">
+    <classes>
+      <class name="TestCases.com_testcase_registerpage">
+        <methods>
+          <include name="registerPageNavigation"/>
+          <include name="enterContactInformation"/>
+          <include name="closeBrowser"/>
+        </methods>
+      </class> <!-- TestCases.com_testcase_registerpage -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
