@@ -1,4 +1,4 @@
-# Created at 2025-03-03T23:23:08.538
+# Created at 2025-03-08T07:52:50.671
 Boot Manifest-JAR contains absolute paths in classpath 'D:\eclipse\Batch51_Cusip\target\test-classes'
 Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
 'other' has different root
