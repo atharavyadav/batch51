@@ -2,28 +2,28 @@
 <testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-08T08:45:57 IST" name="Suite" finished-at="2025-03-08T08:46:11 IST" duration-ms="13691">
+  <suite started-at="2025-03-09T17:13:58 IST" name="Default suite" finished-at="2025-03-09T17:14:13 IST" duration-ms="15462">
     <groups>
     </groups>
-    <test started-at="2025-03-08T08:45:57 IST" name="Test" finished-at="2025-03-08T08:46:11 IST" duration-ms="13691">
+    <test started-at="2025-03-09T17:13:58 IST" name="Default test" finished-at="2025-03-09T17:14:13 IST" duration-ms="15462">
       <class name="TestCases.com_testcase_registerpage">
-        <test-method is-config="true" signature="registerPageNavigation()[pri:0, instance:TestCases.com_testcase_registerpage@4233e892]" started-at="2025-03-08T08:45:57 IST" name="registerPageNavigation" finished-at="2025-03-08T08:46:05 IST" duration-ms="7979" status="PASS">
+        <test-method is-config="true" signature="registerPageNavigation()[pri:0, instance:TestCases.com_testcase_registerpage@5066d65f]" started-at="2025-03-09T17:13:58 IST" name="registerPageNavigation" finished-at="2025-03-09T17:14:05 IST" duration-ms="7177" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerPageNavigation -->
-        <test-method signature="enterContactInformation()[pri:0, instance:TestCases.com_testcase_registerpage@4233e892]" started-at="2025-03-08T08:46:05 IST" name="enterContactInformation" finished-at="2025-03-08T08:46:08 IST" duration-ms="3111" status="PASS">
+        <test-method signature="enterContactInformation()[pri:0, instance:TestCases.com_testcase_registerpage@5066d65f]" started-at="2025-03-09T17:14:05 IST" name="enterContactInformation" finished-at="2025-03-09T17:14:09 IST" duration-ms="3862" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterContactInformation -->
-        <test-method signature="enterMailingInformation()[pri:0, instance:TestCases.com_testcase_registerpage@4233e892]" started-at="2025-03-08T08:46:09 IST" name="enterMailingInformation" finished-at="2025-03-08T08:46:09 IST" duration-ms="311" status="PASS">
+        <test-method signature="enterMailingInformation()[pri:0, instance:TestCases.com_testcase_registerpage@5066d65f]" started-at="2025-03-09T17:14:09 IST" name="enterMailingInformation" finished-at="2025-03-09T17:14:12 IST" duration-ms="3251" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterMailingInformation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.com_testcase_registerpage@4233e892]" started-at="2025-03-08T08:46:09 IST" name="closeBrowser" finished-at="2025-03-08T08:46:11 IST" duration-ms="2157" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.com_testcase_registerpage@5066d65f]" started-at="2025-03-09T17:14:12 IST" name="closeBrowser" finished-at="2025-03-09T17:14:13 IST" duration-ms="1004" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- TestCases.com_testcase_registerpage -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

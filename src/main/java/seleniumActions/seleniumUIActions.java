@@ -25,9 +25,9 @@ public class seleniumUIActions {
 		
 	}
 	
-	public static void click(String ORPath,String ORKey,String inputData) throws IOException
+	public static void click(String ORPath,String ORKey) throws IOException
 	{
-		driverIntializer.driver.findElement(By.xpath(readDataFromPeropertiesFile.readDataFromORProperties(ORPath,ORKey))).sendKeys(inputData);
+		driverIntializer.driver.findElement(By.xpath(readDataFromPeropertiesFile.readDataFromORProperties(ORPath,ORKey))).click();
 		
 	}
 
@@ -44,6 +44,24 @@ public class seleniumUIActions {
 		File file = ts.getScreenshotAs(OutputType.FILE);//convert to 1 type of common file
 		FileUtils.copyFile(file, new File("D:\\eclipse\\Batch51_Cusip\\TestEvidences\\"+screenshotname+".png"));
 		
+	}
+	
+	public static String getTextfromUI(String xpathofUI , String splitRequired) throws IOException
+	{
+	
+		String username = driverIntializer.driver.findElement(By.xpath(xpathofUI)).getText();
+		
+		if (splitRequired.equalsIgnoreCase("Yes")) {
+			String[] splitusername= username.split(" ");
+			String usernamefetchedfromUI = splitusername[splitusername.length-1];
+			usernamefetchedfromUI=usernamefetchedfromUI.replaceAll("[^0-9a-z]", "");
+			return usernamefetchedfromUI;
+		} else {
+            
+			return username;
+			
+		}	
+	
 	}
 	
 }

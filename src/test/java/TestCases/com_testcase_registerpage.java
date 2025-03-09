@@ -1,13 +1,19 @@
 package TestCases;
 
 import java.io.IOException;
+import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
+import org.testng.asserts.SoftAssert;
+
+import asserstion.assertfunctions;
+
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 import driverIntializer.driverIntializer;
@@ -24,7 +30,7 @@ public class com_testcase_registerpage {
 	public void registerPageNavigation()
 	{
 		driverIntializer.launchdriver(resusebaleData.url);
-		logger.info("User is on the Register Page with URL Used is :=>"+resusebaleData.url);
+		
 		
 	}
 
@@ -48,6 +54,20 @@ public class com_testcase_registerpage {
 	{
      
 		seleniumUIActions.selectDropdownValue("Register.MailingInformation.country.select", "ALGERIA");
+		String name = excelReader.readTestDataFromExcel(resusebaleData.excelpath, resusebaleData.sheetname_Contact, 1, 0);
+		Random random = new Random();
+        int randomNumber = random.nextInt(1000); // Generates a random number between 0 and 999
+        String result =name +  randomNumber;//neelam455
+        System.out.println(result);
+		driverIntializer.driver.findElement(By.xpath("//input[@name='email']")).sendKeys(result);
+		driverIntializer.driver.findElement(By.xpath("//input[@name='password']")).sendKeys("1234");
+		driverIntializer.driver.findElement(By.xpath("//input[@name='confirmPassword']")).sendKeys("1234");		
+		driverIntializer.driver.findElement(By.xpath("//input[@name='submit']")).click();
+		String username = seleniumUIActions.getTextfromUI("//b[contains(text(),'Your user name is')]", "Yes");
+		System.out.println("the value fetched from UI" + username);
+		assertfunctions.hardassert(username, result);
+		
+		
 		
 	}
 	@AfterTest

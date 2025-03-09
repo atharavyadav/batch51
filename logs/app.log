@@ -1,6 +1,108 @@
-2025-03-08 08:46:05 INFO  com_testcase_registerpage:27 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
-2025-03-08 08:46:05 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
-2025-03-08 08:46:07 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
-2025-03-08 08:46:08 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
-2025-03-08 08:46:08 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
-2025-03-08 08:46:08 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 15:17:25 INFO  com_testcase_registerpage:27 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 15:17:26 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 15:17:29 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 15:17:29 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 15:17:30 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 15:17:30 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 15:32:01 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 15:32:02 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 15:32:03 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 15:32:03 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 15:32:04 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 15:32:04 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 15:54:57 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 15:54:58 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 15:54:59 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 15:54:59 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 15:55:00 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 15:55:00 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 15:59:07 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 15:59:07 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 15:59:09 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 15:59:09 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 15:59:10 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 15:59:10 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:00:08 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:00:09 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:00:10 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:00:10 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 16:00:11 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 16:00:11 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:07:18 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:07:19 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:07:20 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:07:20 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 16:07:21 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 16:07:21 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:28:09 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:28:09 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:28:11 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:28:13 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 16:28:13 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 16:28:13 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:30:31 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:30:31 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:30:32 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:30:33 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 16:30:34 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 16:30:34 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:38:00 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:38:00 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:38:02 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:38:02 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 16:38:03 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 16:38:03 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:39:19 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:39:19 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:39:20 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:39:20 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 16:39:21 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 16:39:21 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:41:53 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:41:53 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:41:56 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:41:56 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 16:41:57 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 16:41:57 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:44:33 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:44:33 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:44:34 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:44:35 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 16:44:35 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 16:44:35 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:46:41 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:46:42 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:46:43 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:46:44 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 16:46:44 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 16:46:44 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:50:14 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:50:14 INFO  com_testcase_registerpage:35 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:50:15 INFO  com_testcase_registerpage:36 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:50:16 INFO  com_testcase_registerpage:38 - User enters lastname and the Xpath istest
+2025-03-09 16:50:16 INFO  com_testcase_registerpage:40 - User enters phone and the Xpath isneelam
+2025-03-09 16:50:16 INFO  com_testcase_registerpage:42 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:55:55 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:55:56 INFO  com_testcase_registerpage:36 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:55:58 INFO  com_testcase_registerpage:37 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:55:59 INFO  com_testcase_registerpage:39 - User enters lastname and the Xpath istest
+2025-03-09 16:55:59 INFO  com_testcase_registerpage:41 - User enters phone and the Xpath isneelam
+2025-03-09 16:55:59 INFO  com_testcase_registerpage:43 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:56:43 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:56:43 INFO  com_testcase_registerpage:36 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:56:44 INFO  com_testcase_registerpage:37 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:56:45 INFO  com_testcase_registerpage:39 - User enters lastname and the Xpath istest
+2025-03-09 16:56:45 INFO  com_testcase_registerpage:41 - User enters phone and the Xpath isneelam
+2025-03-09 16:56:45 INFO  com_testcase_registerpage:43 - ***************This Steps ended for ContactInformation***************
+2025-03-09 16:58:34 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 16:58:34 INFO  com_testcase_registerpage:37 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 16:58:35 INFO  com_testcase_registerpage:38 - User enters Firstname and the Xpath isneelam
+2025-03-09 16:58:36 INFO  com_testcase_registerpage:40 - User enters lastname and the Xpath istest
+2025-03-09 16:58:36 INFO  com_testcase_registerpage:42 - User enters phone and the Xpath isneelam
+2025-03-09 16:58:36 INFO  com_testcase_registerpage:44 - ***************This Steps ended for ContactInformation***************
+2025-03-09 17:14:05 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-09 17:14:05 INFO  com_testcase_registerpage:41 - ***************This Steps included adding the data for ContactInformation***************
+2025-03-09 17:14:07 INFO  com_testcase_registerpage:42 - User enters Firstname and the Xpath isneelam
+2025-03-09 17:14:08 INFO  com_testcase_registerpage:44 - User enters lastname and the Xpath istest
+2025-03-09 17:14:09 INFO  com_testcase_registerpage:46 - User enters phone and the Xpath isneelam
+2025-03-09 17:14:09 INFO  com_testcase_registerpage:48 - ***************This Steps ended for ContactInformation***************
