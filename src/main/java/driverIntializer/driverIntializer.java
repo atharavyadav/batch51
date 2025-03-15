@@ -18,7 +18,7 @@ public static WebDriver driver;
    System.setProperty(resusebaleData.chromedriverType, resusebaleData.chromedriverPath);
     driver = new ChromeDriver();
     driver.manage().window().maximize();
-   driver.get(resusebaleData.url);
+   driver.get(url);
    logger.info("User is on the Register Page with URL Used is :=>"+resusebaleData.url);
   } else if(resusebaleData.browserCateogry.equals("edge")) {
    System.setProperty(resusebaleData.edgedriverType, resusebaleData.edgedriverPath);

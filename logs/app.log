@@ -106,3 +106,12 @@
 2025-03-09 17:14:08 INFO  com_testcase_registerpage:44 - User enters lastname and the Xpath istest
 2025-03-09 17:14:09 INFO  com_testcase_registerpage:46 - User enters phone and the Xpath isneelam
 2025-03-09 17:14:09 INFO  com_testcase_registerpage:48 - ***************This Steps ended for ContactInformation***************
+2025-03-15 07:40:28 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-15 07:41:05 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-15 07:41:46 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-15 07:41:56 INFO  seleniumUIActions:79 - alert is accepted
+2025-03-15 07:46:40 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-15 07:46:44 INFO  seleniumUIActions:79 - alert is accepted
+2025-03-15 07:48:29 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-15 07:48:32 INFO  seleniumUIActions:77 - alert message is I am an alert box!
+2025-03-15 07:48:32 INFO  seleniumUIActions:81 - alert is accepted

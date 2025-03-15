@@ -4,11 +4,15 @@ import java.io.File;
 import java.io.IOException;
 
 import org.apache.commons.io.FileUtils;
+import org.apache.logging.log4j.LogManager;
+import org.apache.logging.log4j.Logger;
+import org.openqa.selenium.Alert;
 import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.Select;
+
 
 import driverIntializer.driverIntializer;
 import readerUtils.readDataFromPeropertiesFile;
@@ -16,6 +20,7 @@ import reusableData.resusebaleData;
 
 //Author:Neelam
 public class seleniumUIActions {
+	private static final Logger logger = LogManager.getLogger(seleniumUIActions.class);
 	
 //	this function is used to enter the value in UI and accepts 3 paramters 
 //	1 is for OR path , 2 is which key u wnat to give for xpath , 3 is value u want to enter
@@ -62,6 +67,29 @@ public class seleniumUIActions {
 			
 		}	
 	
+	}
+	
+	
+	public static void handleAlert(String alertType)
+	{
+		Alert alert = driverIntializer.driver.switchTo().alert();
+		 String alertmsg = 	alert.getText();
+	      logger.info("alert message is " + alertmsg);
+	      
+		if (alertType=="yes") {
+			alert.accept();
+			logger.info("alert is accepted");
+		} 
+		else if(alertType=="No") {
+			alert.dismiss();
+			logger.info("alert is dismissed");
+		}
+		else {
+			logger.info("User is not intrested in handling alert , please comntinue");
+		}
+		
+	     
+		
 	}
 	
 }
