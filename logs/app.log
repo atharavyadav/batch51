@@ -115,3 +115,19 @@
 2025-03-15 07:48:29 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
 2025-03-15 07:48:32 INFO  seleniumUIActions:77 - alert message is I am an alert box!
 2025-03-15 07:48:32 INFO  seleniumUIActions:81 - alert is accepted
+2025-03-15 08:05:34 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-15 08:05:45 INFO  seleniumUIActions:99 - alert message is Please enter your name:
+2025-03-15 08:05:45 INFO  seleniumUIActions:104 - alert is accepted
+2025-03-15 08:05:47 INFO  seleniumUIActions:78 - alert message is I am an alert box!
+2025-03-15 08:05:47 INFO  seleniumUIActions:82 - alert is accepted
+2025-03-15 08:15:17 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-15 08:15:17 INFO  com_testcase_registerpage:52 - fierst
+2025-03-15 08:15:20 INFO  seleniumUIActions:99 - alert message is Please enter your name:
+2025-03-15 08:15:20 INFO  seleniumUIActions:104 - alert is accepted
+2025-03-15 08:15:21 INFO  seleniumUIActions:78 - alert message is I am an alert box!
+2025-03-15 08:15:21 INFO  seleniumUIActions:82 - alert is accepted
+2025-03-15 08:18:08 INFO  driverIntializer:22 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-03-15 08:18:11 INFO  seleniumUIActions:78 - alert message is I am an alert box!
+2025-03-15 08:18:12 INFO  seleniumUIActions:82 - alert is accepted
+2025-03-15 08:18:13 INFO  seleniumUIActions:99 - alert message is Please enter your name:
+2025-03-15 08:18:13 INFO  seleniumUIActions:104 - alert is accepted

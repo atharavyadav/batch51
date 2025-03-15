@@ -72,9 +72,10 @@ public class seleniumUIActions {
 	
 	public static void handleAlert(String alertType)
 	{
+		
 		Alert alert = driverIntializer.driver.switchTo().alert();
 		 String alertmsg = 	alert.getText();
-	      logger.info("alert message is " + alertmsg);
+	      logger.info("alert message is " + alertmsg);   
 	      
 		if (alertType=="yes") {
 			alert.accept();
@@ -88,7 +89,27 @@ public class seleniumUIActions {
 			logger.info("User is not intrested in handling alert , please comntinue");
 		}
 		
-	     
+	}
+	
+	public static void handleAlertwithMessage(String alertType,String alertMessage)
+	{
+		
+		Alert alert = driverIntializer.driver.switchTo().alert();
+		 String alertmsg = 	alert.getText();
+	      logger.info("alert message is " + alertmsg);   
+	      alert.sendKeys(alertMessage);
+	      
+		if (alertType=="yes") {
+			alert.accept();
+			logger.info("alert is accepted");
+		} 
+		else if(alertType=="No") {
+			alert.dismiss();
+			logger.info("alert is dismissed");
+		}
+		else {
+			logger.info("User is not intrested in handling alert , please comntinue");
+		}
 		
 	}
 	

@@ -30,13 +30,22 @@ public class com_testcase_verifyAlert {
 	}
 	
 
-	@Test
+	@Test(priority = 1)
 	public void handleAert() throws IOException
 	{
        driverIntializer.driver.findElement(By.xpath("//button[@id='alertBox']")).click();
        seleniumUIActions.handleAlert("yes");
 		
+	}		
+
+	@Test(priority = 2)
+	public void enterMessageInalert() throws IOException
+	{
+       driverIntializer.driver.findElement(By.xpath("//button[@id='promptBox']")).click();
+       seleniumUIActions.handleAlertwithMessage("yes","neelam");
+		
 	}
+	
 	
 	
 	@AfterTest

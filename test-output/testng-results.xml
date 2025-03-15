@@ -1,21 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-15T07:48:17 IST" name="Default suite" finished-at="2025-03-15T07:48:34 IST" duration-ms="16934">
+  <suite started-at="2025-03-15T08:17:51 IST" name="Default suite" finished-at="2025-03-15T08:18:15 IST" duration-ms="24435">
     <groups>
     </groups>
-    <test started-at="2025-03-15T07:48:17 IST" name="Default test" finished-at="2025-03-15T07:48:34 IST" duration-ms="16934">
+    <test started-at="2025-03-15T08:17:51 IST" name="Default test" finished-at="2025-03-15T08:18:15 IST" duration-ms="24435">
       <class name="TestCases.com_testcase_verifyAlert">
-        <test-method is-config="true" signature="registerPageNavigation()[pri:0, instance:TestCases.com_testcase_verifyAlert@3401a114]" started-at="2025-03-15T07:48:18 IST" name="registerPageNavigation" finished-at="2025-03-15T07:48:29 IST" duration-ms="11903" status="PASS">
+        <test-method is-config="true" signature="registerPageNavigation()[pri:0, instance:TestCases.com_testcase_verifyAlert@5066d65f]" started-at="2025-03-15T08:17:51 IST" name="registerPageNavigation" finished-at="2025-03-15T08:18:08 IST" duration-ms="16961" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerPageNavigation -->
-        <test-method signature="handleAert()[pri:0, instance:TestCases.com_testcase_verifyAlert@3401a114]" started-at="2025-03-15T07:48:30 IST" name="handleAert" finished-at="2025-03-15T07:48:32 IST" duration-ms="2418" status="PASS">
+        <test-method signature="handleAert()[pri:1, instance:TestCases.com_testcase_verifyAlert@5066d65f]" started-at="2025-03-15T08:18:09 IST" name="handleAert" finished-at="2025-03-15T08:18:12 IST" duration-ms="3079" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- handleAert -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.com_testcase_verifyAlert@3401a114]" started-at="2025-03-15T07:48:32 IST" name="closeBrowser" finished-at="2025-03-15T07:48:34 IST" duration-ms="2349" status="PASS">
+        <test-method signature="enterMessageInalert()[pri:2, instance:TestCases.com_testcase_verifyAlert@5066d65f]" started-at="2025-03-15T08:18:12 IST" name="enterMessageInalert" finished-at="2025-03-15T08:18:13 IST" duration-ms="1019" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- enterMessageInalert -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.com_testcase_verifyAlert@5066d65f]" started-at="2025-03-15T08:18:13 IST" name="closeBrowser" finished-at="2025-03-15T08:18:15 IST" duration-ms="2538" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->

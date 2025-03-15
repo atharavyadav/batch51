@@ -6,6 +6,7 @@
       <class name="TestCases.com_testcase_verifyAlert">
         <methods>
           <include name="closeBrowser"/>
+          <include name="enterMessageInalert"/>
           <include name="handleAert"/>
           <include name="registerPageNavigation"/>
         </methods>
