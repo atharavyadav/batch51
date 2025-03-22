@@ -9,7 +9,10 @@ public interface resusebaleData {
     public static String url="https://demo.guru99.com/test/newtours/register.php";
     public static String alerturl="https://www.hyrtutorials.com/p/alertsdemo.html";
     public static String url1="https://demo.guru99.com/test/newtours/register.php";
+    public static String dataTable="https://demo.guru99.com/test/web-table-element.php";
     public static String browserCateogry="chrome";
+    public static String Demo_Guru_FrameName="a077aa5e";
+    public static String switchtoframeurl="https://demo.guru99.com/test/guru99home/";
     public static String sheetname_Contact="ContactInformation";
     public static String sheetname_mailInfo="ContactInformation";
     public static String regiterORPath="D:\\eclipse\\Batch51_Cusip\\ObjectRepository\\registerOR.properties";

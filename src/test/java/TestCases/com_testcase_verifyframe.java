@@ -16,7 +16,7 @@ import readDataFromExcel.excelReader;
 import reusableData.resusebaleData;
 import seleniumActions.seleniumUIActions;
 
-public class com_testcase_verifyAlert {
+public class com_testcase_verifyframe {
 
 
 	private static final Logger logger = LogManager.getLogger(com_testcase_registerpage.class);
@@ -24,27 +24,19 @@ public class com_testcase_verifyAlert {
 	@BeforeTest
 	public void registerPageNavigation()
 	{
-		driverIntializer.launchdriver(resusebaleData.alerturl);
+		driverIntializer.launchdriver(resusebaleData.switchtoframeurl);
 		
 		
 	}
 	
 
 	@Test(priority = 1)
-	public void handleAert() throws IOException
+	public void handleframe() throws IOException
 	{
-       driverIntializer.driver.findElement(By.xpath("//button[@id='alertBox']")).click();
-       seleniumUIActions.handleAlert("yes");
+		seleniumUIActions.framehandling(resusebaleData.Demo_Guru_FrameName, "//img[@src='Jmeter720.png']");
 		
 	}		
 
-	@Test(priority = 2)
-	public void enterMessageInalert() throws IOException
-	{
-       driverIntializer.driver.findElement(By.xpath("//button[@id='promptBox']")).click();
-       seleniumUIActions.handleAlertwithMessage("yes","neelam");
-		
-	}
 	
 	
 	

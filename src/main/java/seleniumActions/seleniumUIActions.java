@@ -112,5 +112,12 @@ public class seleniumUIActions {
 		}
 		
 	}
+
 	
+	public static void framehandling(String frameID , String framexpath)
+	{
+		   driverIntializer.driver.switchTo().frame(frameID);
+	       driverIntializer.driver.findElement(By.xpath(framexpath)).click();
+	       //
+	}
 }
