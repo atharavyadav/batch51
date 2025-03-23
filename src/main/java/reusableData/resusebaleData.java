@@ -16,6 +16,7 @@ public interface resusebaleData {
     public static String Demo_Guru_FrameName="a077aa5e";
     public static String switchtoframeurl="https://demo.guru99.com/test/guru99home/";
     public static String sheetname_Contact="ContactInformation";
+    public static String waittUrl="https://www.hyrtutorials.com/p/waits-demo.html";
     public static String sheetname_mailInfo="ContactInformation";
     public static String regiterORPath="D:\\eclipse\\Batch51_Cusip\\ObjectRepository\\registerOR.properties";
     public static String excelpath="D:\\eclipse\\Batch51_Cusip\\src\\test\\resources\\ResgisterInformation_testData.xlsx";

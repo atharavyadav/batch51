@@ -9,7 +9,7 @@
       <class name="TestCases.com_testcase_registerpage">
         <methods>
           <include name="registerPageNavigation"/>
-          <include name="enterContactInformation"/>
+          <include name="enterMailingInformation"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- TestCases.com_testcase_registerpage -->

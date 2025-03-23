@@ -2,24 +2,24 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-23T07:27:41 IST" name="Default suite" finished-at="2025-03-23T07:28:28 IST" duration-ms="47594">
+  <suite started-at="2025-03-23T08:29:57 IST" name="Default suite" finished-at="2025-03-23T08:30:18 IST" duration-ms="21265">
     <groups>
     </groups>
-    <test started-at="2025-03-23T07:27:41 IST" name="Default test" finished-at="2025-03-23T07:28:28 IST" duration-ms="47594">
-      <class name="TestCases.com_testcase_mousehover">
-        <test-method is-config="true" signature="registerPageNavigation()[pri:0, instance:TestCases.com_testcase_mousehover@3401a114]" started-at="2025-03-23T07:27:41 IST" name="registerPageNavigation" finished-at="2025-03-23T07:28:28 IST" duration-ms="46980" status="PASS">
+    <test started-at="2025-03-23T08:29:57 IST" name="Default test" finished-at="2025-03-23T08:30:18 IST" duration-ms="21265">
+      <class name="TestCases.com_testcase_wait">
+        <test-method is-config="true" signature="registerPageNavigation()[pri:0, instance:TestCases.com_testcase_wait@3401a114]" started-at="2025-03-23T08:29:57 IST" name="registerPageNavigation" finished-at="2025-03-23T08:30:12 IST" duration-ms="14577" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerPageNavigation -->
-        <test-method signature="enterContactInformation()[pri:0, instance:TestCases.com_testcase_mousehover@3401a114]" started-at="2025-03-23T07:28:28 IST" name="enterContactInformation" finished-at="2025-03-23T07:28:28 IST" duration-ms="511" status="PASS">
+        <test-method signature="enterContactInformation()[pri:0, instance:TestCases.com_testcase_wait@3401a114]" started-at="2025-03-23T08:30:12 IST" name="enterContactInformation" finished-at="2025-03-23T08:30:18 IST" duration-ms="6486" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterContactInformation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.com_testcase_mousehover@3401a114]" started-at="2025-03-23T07:28:28 IST" name="closeBrowser" finished-at="2025-03-23T07:28:28 IST" duration-ms="2" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.com_testcase_wait@3401a114]" started-at="2025-03-23T08:30:18 IST" name="closeBrowser" finished-at="2025-03-23T08:30:18 IST" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- TestCases.com_testcase_mousehover -->
+      </class> <!-- TestCases.com_testcase_wait -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

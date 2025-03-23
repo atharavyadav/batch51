@@ -40,9 +40,11 @@ public class com_testcase_mousehover {
 	@Test
 	public void enterContactInformation() throws IOException
 	{
-          
+         logger.info("excution started");
 		WebElement ele = driverIntializer.driver.findElement(By.xpath("//a[text()='Main Item 2']"));
+		 logger.info("mousehover");
 		Actions act = new Actions(driverIntializer.driver);
+		 logger.info("mousehover completed");
 		act.moveToElement(ele).build().perform();
 	}
 	
