@@ -2,6 +2,7 @@ package seleniumActions;
 
 import java.io.File;
 import java.io.IOException;
+import java.time.Duration;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.logging.log4j.LogManager;
@@ -11,8 +12,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
-
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import driverIntializer.driverIntializer;
 import readerUtils.readDataFromPeropertiesFile;
@@ -122,5 +124,18 @@ public class seleniumUIActions {
 		   driverIntializer.driver.switchTo().frame(frameID);
 	       driverIntializer.driver.findElement(By.xpath(framexpath)).click();
 	       //
+	}
+	
+	
+	public static void implicitWait(int duration)
+	{
+		driverIntializer.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(duration));
+	}
+	
+	public static void ExplicitWait(int duration)
+	{
+		WebDriverWait wait = new WebDriverWait(driverIntializer.driver,Duration.ofSeconds(duration));
+		wait.until((ExpectedConditions.visibilityOfElementLocated(By.xpath("(//input[@placeholder='Textbox1'])[1]"))));
+		
 	}
 }

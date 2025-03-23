@@ -36,7 +36,7 @@ public class com_testcase_wait {
 	public void registerPageNavigation()
 	{
 		driverIntializer.launchdriver(resusebaleData.waittUrl);
-		
+	
 		
 	}
 
@@ -48,12 +48,12 @@ public class com_testcase_wait {
 		//fluent wait --- not inuse anymore
 		driverIntializer.driver.findElement(By.xpath("//button[@id='btn1']")).click();
 		//Thread.sleep(10000); use when u dont have any options
-		driverIntializer.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(10));
+		seleniumUIActions.implicitWait(10);
 		driverIntializer.driver.findElement(By.xpath("(//input[@placeholder='Textbox1'])[1]")).sendKeys("test");
 		
-		WebDriverWait wait = new WebDriverWait(driverIntializer.driver,Duration.ofSeconds(10));
-		wait.until((ExpectedConditions.visibilityOfElementLocated(By.xpath("(//input[@placeholder='Textbox1'])[1]"))));
-		driverIntializer.driver.findElement(By.xpath("(//input[@placeholder='Textbox1'])[1]")).sendKeys("test");
+//		WebDriverWait wait = seleniumUIActions.ExplicitWait(10);
+//		wait.until(ExpectedConditions.visibilityOfElementLocated(null));
+	
 	}
 	
 	
