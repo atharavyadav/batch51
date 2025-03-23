@@ -11,6 +11,8 @@ public interface resusebaleData {
     public static String url1="https://demo.guru99.com/test/newtours/register.php";
     public static String dataTable="https://demo.guru99.com/test/web-table-element.php";
     public static String browserCateogry="chrome";
+    public static String mousehover="https://demoqa.com/menu/#";
+    public static String downloadUrl="https://www.tutorialspoint.com/selenium/practice/upload-download.php";
     public static String Demo_Guru_FrameName="a077aa5e";
     public static String switchtoframeurl="https://demo.guru99.com/test/guru99home/";
     public static String sheetname_Contact="ContactInformation";

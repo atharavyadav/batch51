@@ -24,14 +24,14 @@ import readerUtils.readDataFromPeropertiesFile;
 import reusableData.resusebaleData;
 import seleniumActions.seleniumUIActions;
 
-public class com_testcase_datatble {
+public class com_testcase_download_upload {
 	
-	private static final Logger logger = LogManager.getLogger(com_testcase_datatble.class);
+	private static final Logger logger = LogManager.getLogger(com_testcase_download_upload.class);
 	
 	@BeforeTest
 	public void registerPageNavigation()
 	{
-		driverIntializer.launchdriver(resusebaleData.dataTable);
+		driverIntializer.launchdriver(resusebaleData.downloadUrl);
 		
 		
 	}
@@ -39,26 +39,17 @@ public class com_testcase_datatble {
 	@Test
 	public void enterContactInformation() throws IOException
 	{
-		List <WebElement> rows = driverIntializer.driver.findElements(By.xpath("//table[@class='dataTable']//tr"));
-		for (int i = 1; i < rows.size(); i++) {	
-		List <WebElement> column = driverIntializer.driver.findElements(By.xpath("//table[@class='dataTable']//tr["+i+"]//td"));	
-	     for (int j = 0; j < column.size(); j++) {
-	    	 if(i==5)
-	    	 {
-	    		 
-	    	 }
-	    	 String data = column.get(j).getText();
-	    	 System.out.println(data);
-		}
+		
+		 driverIntializer.driver.findElement(By.xpath("//a[@id='downloadButton']")).click();
 		 
-		}
+		
 	}
 	
 	
 	@AfterTest
 	public void  closeBrowser()
 	{
-		driverIntializer.closebrowser();
+		//driverIntializer.closebrowser();
 		
 	}
 }

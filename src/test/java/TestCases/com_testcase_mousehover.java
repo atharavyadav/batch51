@@ -7,6 +7,7 @@ import java.util.Random;
 
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
@@ -24,14 +25,14 @@ import readerUtils.readDataFromPeropertiesFile;
 import reusableData.resusebaleData;
 import seleniumActions.seleniumUIActions;
 
-public class com_testcase_datatble {
+public class com_testcase_mousehover {
 	
-	private static final Logger logger = LogManager.getLogger(com_testcase_datatble.class);
+	private static final Logger logger = LogManager.getLogger(com_testcase_mousehover.class);
 	
 	@BeforeTest
 	public void registerPageNavigation()
 	{
-		driverIntializer.launchdriver(resusebaleData.dataTable);
+		driverIntializer.launchdriver(resusebaleData.mousehover);
 		
 		
 	}
@@ -39,19 +40,10 @@ public class com_testcase_datatble {
 	@Test
 	public void enterContactInformation() throws IOException
 	{
-		List <WebElement> rows = driverIntializer.driver.findElements(By.xpath("//table[@class='dataTable']//tr"));
-		for (int i = 1; i < rows.size(); i++) {	
-		List <WebElement> column = driverIntializer.driver.findElements(By.xpath("//table[@class='dataTable']//tr["+i+"]//td"));	
-	     for (int j = 0; j < column.size(); j++) {
-	    	 if(i==5)
-	    	 {
-	    		 
-	    	 }
-	    	 String data = column.get(j).getText();
-	    	 System.out.println(data);
-		}
-		 
-		}
+          
+		WebElement ele = driverIntializer.driver.findElement(By.xpath("//a[text()='Main Item 2']"));
+		Actions act = new Actions(driverIntializer.driver);
+		act.moveToElement(ele).build().perform();
 	}
 	
 	
@@ -59,6 +51,6 @@ public class com_testcase_datatble {
 	public void  closeBrowser()
 	{
 		driverIntializer.closebrowser();
-		
+	
 	}
 }
