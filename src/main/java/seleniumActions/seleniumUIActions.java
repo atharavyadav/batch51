@@ -132,10 +132,13 @@ public class seleniumUIActions {
 		driverIntializer.driver.manage().timeouts().implicitlyWait(Duration.ofSeconds(duration));
 	}
 	
-	public static void ExplicitWait(int duration)
+	public static WebDriverWait ExplicitWait(int duration)
 	{
 		WebDriverWait wait = new WebDriverWait(driverIntializer.driver,Duration.ofSeconds(duration));
-		wait.until((ExpectedConditions.visibilityOfElementLocated(By.xpath("(//input[@placeholder='Textbox1'])[1]"))));
+		return wait;
+		
+		
+//		wait.until((ExpectedConditions.visibilityOfElementLocated(By.xpath("(//input[@placeholder='Textbox1'])[1]"))));
 		
 	}
 }

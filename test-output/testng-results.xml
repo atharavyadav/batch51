@@ -1,25 +1,91 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-03-23T08:29:57 IST" name="Default suite" finished-at="2025-03-23T08:30:18 IST" duration-ms="21265">
+  <suite started-at="2025-03-29T09:04:35 IST" name="Default suite" finished-at="2025-03-29T09:04:51 IST" duration-ms="15321">
     <groups>
     </groups>
-    <test started-at="2025-03-23T08:29:57 IST" name="Default test" finished-at="2025-03-23T08:30:18 IST" duration-ms="21265">
-      <class name="TestCases.com_testcase_wait">
-        <test-method is-config="true" signature="registerPageNavigation()[pri:0, instance:TestCases.com_testcase_wait@3401a114]" started-at="2025-03-23T08:29:57 IST" name="registerPageNavigation" finished-at="2025-03-23T08:30:12 IST" duration-ms="14577" status="PASS">
+    <test started-at="2025-03-29T09:04:35 IST" name="Default test" finished-at="2025-03-29T09:04:51 IST" duration-ms="15321">
+      <class name="TestCases.com_testcase_pagination">
+        <test-method is-config="true" signature="registerPageNavigation()[pri:0, instance:TestCases.com_testcase_pagination@3401a114]" started-at="2025-03-29T09:04:36 IST" name="registerPageNavigation" finished-at="2025-03-29T09:04:46 IST" duration-ms="10440" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerPageNavigation -->
-        <test-method signature="enterContactInformation()[pri:0, instance:TestCases.com_testcase_wait@3401a114]" started-at="2025-03-23T08:30:12 IST" name="enterContactInformation" finished-at="2025-03-23T08:30:18 IST" duration-ms="6486" status="PASS">
+        <test-method signature="enterContactInformation()[pri:0, instance:TestCases.com_testcase_pagination@3401a114]" started-at="2025-03-29T09:04:46 IST" name="enterContactInformation" finished-at="2025-03-29T09:04:51 IST" duration-ms="4683" status="FAIL">
+          <exception class="org.openqa.selenium.StaleElementReferenceException">
+            <message>
+              <![CDATA[stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.177)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [408cbb4f715cb38f72ac34439df9c87a, getElementText {id=f.BF071891F557EE87A596345848339A6A.d.9CA8D85C700FFA12E6BED16407D6368E.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.177, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49416/devtoo..., se:cdpVersion: 134.0.6998.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (408cbb4f715cb38f72ac34439df9c87a)] -> xpath: (//nav[@id='pagination'])[1]//li]
+Session ID: 408cbb4f715cb38f72ac34439df9c87a]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[org.openqa.selenium.StaleElementReferenceException: stale element reference: stale element not found
+  (Session info: chrome=134.0.6998.177)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#stale-element-reference-exception
+Build info: version: '4.28.1', revision: '73f5ad48a2'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [408cbb4f715cb38f72ac34439df9c87a, getElementText {id=f.BF071891F557EE87A596345848339A6A.d.9CA8D85C700FFA12E6BED16407D6368E.e.20}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 134.0.6998.177, chrome: {chromedriverVersion: 133.0.6943.98 (da53563ceb66..., userDataDir: C:\Users\hp\AppData\Local\T...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:49416}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:49416/devtoo..., se:cdpVersion: 134.0.6998.177, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on windows (408cbb4f715cb38f72ac34439df9c87a)] -> xpath: (//nav[@id='pagination'])[1]//li]
+Session ID: 408cbb4f715cb38f72ac34439df9c87a
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
+at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:215)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
+at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
+at org.openqa.selenium.remote.RemoteWebElement.getText(RemoteWebElement.java:191)
+at TestCases.com_testcase_pagination.enterContactInformation(com_testcase_pagination.java:49)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+]]>
+            </full-stacktrace>
+          </exception> <!-- org.openqa.selenium.StaleElementReferenceException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- enterContactInformation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.com_testcase_wait@3401a114]" started-at="2025-03-23T08:30:18 IST" name="closeBrowser" finished-at="2025-03-23T08:30:18 IST" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.com_testcase_pagination@3401a114]" started-at="2025-03-29T09:04:51 IST" name="closeBrowser" finished-at="2025-03-29T09:04:51 IST" duration-ms="2" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- TestCases.com_testcase_wait -->
+      </class> <!-- TestCases.com_testcase_pagination -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
