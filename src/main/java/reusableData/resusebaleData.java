@@ -18,6 +18,7 @@ public interface resusebaleData {
     public static String switchtoframeurl="https://demo.guru99.com/test/guru99home/";
     public static String switchtowindow="https://www.hyrtutorials.com/p/window-handles-practice.html";
     public static String sheetname_Contact="ContactInformation";
+    public static String calender="https://www.redbus.com/";
     public static String waittUrl="https://www.hyrtutorials.com/p/waits-demo.html";
     public static String sheetname_mailInfo="ContactInformation";
     public static String pagination="https://www.scrapingcourse.com/ecommerce/";

@@ -10,6 +10,7 @@
         <methods>
           <include name="registerPageNavigation"/>
           <include name="enterMailingInformation"/>
+          <include name="enterContactInformation"/>
           <include name="closeBrowser"/>
         </methods>
       </class> <!-- TestCases.com_testcase_registerpage -->

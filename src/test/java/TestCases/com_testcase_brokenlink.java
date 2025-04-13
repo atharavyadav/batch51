@@ -16,6 +16,8 @@ import org.testng.annotations.BeforeTest;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
+import com.beust.jcommander.Parameter;
+
 import asserstion.assertfunctions;
 
 import org.apache.logging.log4j.LogManager;
@@ -30,6 +32,7 @@ public class com_testcase_brokenlink {
 	
 	private static final Logger logger = LogManager.getLogger(com_testcase_brokenlink.class);
 	
+
 	@BeforeTest
 	public void registerPageNavigation()
 	{
@@ -74,4 +77,6 @@ public class com_testcase_brokenlink {
 		driverIntializer.closebrowser();
 		
 	}
+
+	
 }

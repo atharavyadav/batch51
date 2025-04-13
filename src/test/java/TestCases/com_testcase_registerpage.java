@@ -1,6 +1,11 @@
 package TestCases;
 
 import java.io.IOException;
+import java.sql.Connection;
+import java.sql.ResultSet;
+import java.sql.Statement;
+import java.util.ArrayList;
+import java.util.List;
 import java.util.Random;
 
 import org.openqa.selenium.By;
@@ -9,10 +14,12 @@ import org.openqa.selenium.support.ui.Select;
 import org.testng.Assert;
 import org.testng.annotations.AfterTest;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.DataProvider;
 import org.testng.annotations.Test;
 import org.testng.asserts.SoftAssert;
 
 import asserstion.assertfunctions;
+import dataBaseConnectionDetails.DBUtils;
 
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
@@ -30,20 +37,57 @@ public class com_testcase_registerpage {
 	public void registerPageNavigation()
 	{
 		driverIntializer.launchdriver(resusebaleData.url);
-		
+		driverIntializer.driver.manage().deleteAllCookies();
 		
 	}
-
-	@Test
-	public void enterContactInformation() throws IOException
+	
+	@DataProvider(name="logintestData")
+	public static Object[][] logintestdata()
 	{
+		return new Object[][]
+				{
+			
+			{"FirstName","neelam"},
+			{"LastName","test"},
+			
+				};
+	}
 
+	
+	
+	
+	@Test
+	public void enterContactInformation() throws Exception
+	{
+		DBUtils db = new DBUtils();
+		Connection connect = db.DBConnection();
+	    Statement smt = connect.createStatement();
+	    
+	    
+		String sqlQuert = "SELECT CustomerID FROM Customers where City = 'Berlin'";
+		ResultSet  set = null;
+		set = smt.executeQuery(sqlQuert);
+		
+		while(set.next())
+		{
+			int id = set.getInt("CustomerID");
+			List list = new ArrayList();
+			list.add(id);
+			list.get(3);
+			
+			String custname = set.getString("CustomerName");
+		}
+        
+		
+		
 		logger.info("***************This Steps included adding the data for ContactInformation***************");
 		logger.info("User enters Firstname and the Xpath is" + excelReader.readTestDataFromExcel(resusebaleData.excelpath, resusebaleData.sheetname_Contact, 1, 0));
 		seleniumUIActions.enterValueinUI(resusebaleData.regiterORPath, "Register.ContactInformation.FirstName.input", excelReader.readTestDataFromExcel(resusebaleData.excelpath, resusebaleData.sheetname_Contact, 1, 0));
 		logger.info("User enters lastname and the Xpath is" + excelReader.readTestDataFromExcel(resusebaleData.excelpath, resusebaleData.sheetname_Contact, 1, 1));
 		seleniumUIActions.enterValueinUI(resusebaleData.regiterORPath, "Register.ContactInformation.LastName.input", excelReader.readTestDataFromExcel(resusebaleData.excelpath, resusebaleData.sheetname_Contact, 1, 1));
 		logger.info("User enters phone and the Xpath is" + excelReader.readTestDataFromExcel(resusebaleData.excelpath, resusebaleData.sheetname_Contact, 1, 0));
+		
+		
 		seleniumUIActions.enterValueinUI(resusebaleData.regiterORPath, "Register.ContactInformation.phone.input", "1224");
 		logger.info("***************This Steps ended for ContactInformation***************");
 	}
@@ -71,9 +115,15 @@ public class com_testcase_registerpage {
 		
 	}
 	@AfterTest
-	public void  closeBrowser()
+	public void  closeBrowser() throws Exception
 	{
 		driverIntializer.closebrowser();
+		DBUtils db = new DBUtils();
+		Connection connect = db.DBConnection();
+	    Statement smt = connect.createStatement();
+		String sqlQuert = "delete * from Customers where CustomerID = 1'";
+		ResultSet  set = null;
+		set = smt.executeQuery(sqlQuert);
 		
 	}
 }

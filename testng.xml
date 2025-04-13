@@ -1,13 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-<listeners>
-<listener class-name="listneres.SeleniumListneres"></listener>
-</listeners>
-
-  <test thread-count="5" name="Test">
+  <test thread-count="4" name="Test" parallel="classes">
     <classes>
+      <class name="TestCases.com_testcase_wait"/>
       <class name="TestCases.com_testcase_registerpage"/>
+      <class name="TestCases.com_testcase_datatble"/>
+      <class name="TestCases.com_testcase_verifyframe"/>
+      <class name="TestCases.com_testcase_brokenlink"/>
+      <class name="TestCases.com_testcase_verifyAlert"/>
+      <class name="TestCases.com_testcase_staleelementException"/>
+      <class name="TestCases.com_testcase_download_upload"/>
+      <class name="TestCases.com_testcase_calender"/>
+      <class name="TestCases.com_testcase_switchgToWindow"/>
+      <class name="TestCases.com_testcase_mousehover"/>
+      <class name="TestCases.com_testcase_pagination"/>
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

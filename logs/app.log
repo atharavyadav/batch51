@@ -212,3 +212,14 @@
 2025-03-29 09:02:14 INFO  driverIntializer:26 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
 2025-03-29 09:03:40 INFO  driverIntializer:26 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
 2025-03-29 09:04:46 INFO  driverIntializer:26 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-04-05 15:50:31 INFO  driverIntializer:26 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-04-05 15:50:52 INFO  driverIntializer:26 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-04-05 15:51:40 INFO  driverIntializer:26 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-04-05 15:54:50 INFO  driverIntializer:26 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-04-05 16:07:28 INFO  driverIntializer:26 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-04-12 08:06:03 INFO  driverIntializer:26 - User is on the Register Page with URL Used is :=>https://demo.guru99.com/test/newtours/register.php
+2025-04-12 08:06:04 INFO  com_testcase_registerpage:41 - ***************This Steps included adding the data for ContactInformation***************
+2025-04-12 08:06:07 INFO  com_testcase_registerpage:42 - User enters Firstname and the Xpath isneelam
+2025-04-12 08:06:09 INFO  com_testcase_registerpage:44 - User enters lastname and the Xpath istest
+2025-04-12 08:06:10 INFO  com_testcase_registerpage:46 - User enters phone and the Xpath isneelam
+2025-04-12 08:06:10 INFO  com_testcase_registerpage:48 - ***************This Steps ended for ContactInformation***************
