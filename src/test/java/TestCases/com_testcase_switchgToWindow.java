@@ -44,22 +44,35 @@ public class com_testcase_switchgToWindow {
 	public void navigateToNewWindow() throws IOException
 	{
 	
-		driverIntializer.driver.findElement(By.xpath("//button[@id='newWindowBtn']")).click();		
+		driverIntializer.driver.findElement(By.xpath("//button[@id='newWindowsBtn']")).click();		
 		//First step find the Id of the page
 		String parentID = driverIntializer.driver.getWindowHandle();
 		System.out.println("parent ID" + parentID);
 		Set<String> child = driverIntializer.driver.getWindowHandles();
 		System.out.println("child id" + child);
-		for (String windowhandle : child) {
-			if(!parentID.equals(windowhandle))
-			{
-				driverIntializer.driver.switchTo().window(windowhandle);
-				System.out.println("new child id is " + driverIntializer.driver.getTitle());
-			}
+		
+		List<String> list=new ArrayList<String>(child);
+		int target=1;
+		if(list.size()>target)
+		{
+			driverIntializer.driver.switchTo().window(list.get(2));
+			System.out.println(driverIntializer.driver.getTitle());
 		}
-		 
-		driverIntializer.driver.switchTo().window(parentID);
-		System.out.println("new child id is " + driverIntializer.driver.getTitle());
+		
+		
+		
+		
+		
+//		for (String windowhandle : child) {
+//			if(!parentID.equals(windowhandle))
+//			{
+//				driverIntializer.driver.switchTo().window(windowhandle);
+//				System.out.println("new child id is " + driverIntializer.driver.getTitle());
+//			}
+//		}
+////		 
+//		driverIntializer.driver.switchTo().window(parentID);
+//		System.out.println("new child id is " + driverIntializer.driver.getTitle());
 	}
 	
 	

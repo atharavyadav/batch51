@@ -2,6 +2,12 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
 <suite name="Suite">
   <test thread-count="4" name="Test" parallel="classes">
+  
+  <groups>
+  <run>
+  <include name="regression or sanity"></include>
+  </run>
+  </groups>
     <classes>
       <class name="TestCases.com_testcase_wait"/>
       <class name="TestCases.com_testcase_registerpage"/>

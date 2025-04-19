@@ -41,7 +41,7 @@ public class com_testcase_brokenlink {
 		
 	}
 
-	@Test
+	@Test(groups = {"sanity"})
 	public void enterContactInformation() throws IOException
 	{
 		List<WebElement> ele =	driverIntializer.driver.findElements(By.tagName("a"));
@@ -71,6 +71,66 @@ public class com_testcase_brokenlink {
 	}
 	
 	
+	
+	@Test(groups = {"regression or sanity"})
+	public void enterContactInformation1() throws IOException
+	{
+		List<WebElement> ele =	driverIntializer.driver.findElements(By.tagName("a"));
+		System.out.println(ele.size());//92
+		
+		
+		for(WebElement link:ele)
+		{
+			String hrefurl = link.getAttribute("href");
+			if(hrefurl!=null && !hrefurl.isEmpty())
+			{
+				HttpURLConnection http = (HttpURLConnection)new URL(hrefurl).openConnection();
+				http.setRequestMethod("HEAD");
+				http.connect();
+				
+				int respocode = http.getResponseCode();
+				if(respocode>=400)
+				{
+					System.out.println("my broken link is" + hrefurl + respocode);
+			}
+				else {
+					System.out.println("proper link" + hrefurl + respocode);
+				}
+			}
+		}
+		
+	}
+	
+	
+	
+	@Test(groups = {"smoke"})
+	public void enterContactInformation2() throws IOException
+	{
+		List<WebElement> ele =	driverIntializer.driver.findElements(By.tagName("a"));
+		System.out.println(ele.size());//92
+		
+		
+		for(WebElement link:ele)
+		{
+			String hrefurl = link.getAttribute("href");
+			if(hrefurl!=null && !hrefurl.isEmpty())
+			{
+				HttpURLConnection http = (HttpURLConnection)new URL(hrefurl).openConnection();
+				http.setRequestMethod("HEAD");
+				http.connect();
+				
+				int respocode = http.getResponseCode();
+				if(respocode>=400)
+				{
+					System.out.println("my broken link is" + hrefurl + respocode);
+			}
+				else {
+					System.out.println("proper link" + hrefurl + respocode);
+				}
+			}
+		}
+		
+	}
 	@AfterTest
 	public void  closeBrowser()
 	{

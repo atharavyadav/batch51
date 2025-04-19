@@ -1,206 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="0" failed="0" skipped="2">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-12T08:06:44 IST" name="Suite" finished-at="2025-04-12T08:06:55 IST" duration-ms="10738">
+  <suite started-at="2025-04-19T08:56:13 IST" name="Default suite" finished-at="2025-04-19T08:56:50 IST" duration-ms="37875">
     <groups>
     </groups>
-    <test started-at="2025-04-12T08:06:44 IST" name="Test" finished-at="2025-04-12T08:06:55 IST" duration-ms="10738">
-      <class name="TestCases.com_testcase_registerpage">
-        <test-method is-config="true" signature="registerPageNavigation()[pri:0, instance:TestCases.com_testcase_registerpage@4233e892]" started-at="2025-04-12T08:06:44 IST" name="registerPageNavigation" finished-at="2025-04-12T08:06:55 IST" duration-ms="10541" status="FAIL">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
-Current browser version is 135.0.3179.66 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-Host info: host: 'DESKTOP-Q8QMA40', ip: '192.168.56.1'
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
-Current browser version is 135.0.3179.66 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-Host info: host: 'DESKTOP-Q8QMA40', ip: '192.168.56.1'
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at driverIntializer.driverIntializer.launchdriver(driverIntializer.java:29)
-at TestCases.com_testcase_registerpage.registerPageNavigation(com_testcase_registerpage.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
-at org.testng.TestRunner.beforeRun(TestRunner.java:646)
-at org.testng.TestRunner.run(TestRunner.java:612)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+    <test started-at="2025-04-19T08:56:13 IST" name="Default test" finished-at="2025-04-19T08:56:50 IST" duration-ms="37875">
+      <class name="TestCases.com_testcase_switchgToWindow">
+        <test-method is-config="true" signature="registerPageNavigation()[pri:0, instance:TestCases.com_testcase_switchgToWindow@3c9bfddc]" started-at="2025-04-19T08:56:13 IST" name="registerPageNavigation" finished-at="2025-04-19T08:56:29 IST" duration-ms="16539" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- registerPageNavigation -->
-        <test-method signature="enterContactInformation()[pri:0, instance:TestCases.com_testcase_registerpage@4233e892]" started-at="2025-04-12T08:06:55 IST" name="enterContactInformation" finished-at="2025-04-12T08:06:55 IST" duration-ms="2" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
-Current browser version is 135.0.3179.66 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-Host info: host: 'DESKTOP-Q8QMA40', ip: '192.168.56.1'
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
-Current browser version is 135.0.3179.66 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-Host info: host: 'DESKTOP-Q8QMA40', ip: '192.168.56.1'
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at driverIntializer.driverIntializer.launchdriver(driverIntializer.java:29)
-at TestCases.com_testcase_registerpage.registerPageNavigation(com_testcase_registerpage.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
-at org.testng.TestRunner.beforeRun(TestRunner.java:646)
-at org.testng.TestRunner.run(TestRunner.java:612)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
+        <test-method signature="navigateToNewWindow()[pri:0, instance:TestCases.com_testcase_switchgToWindow@3c9bfddc]" started-at="2025-04-19T08:56:29 IST" name="navigateToNewWindow" finished-at="2025-04-19T08:56:49 IST" duration-ms="19226" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterContactInformation -->
-        <test-method signature="enterMailingInformation()[pri:0, instance:TestCases.com_testcase_registerpage@4233e892]" started-at="2025-04-12T08:06:55 IST" name="enterMailingInformation" finished-at="2025-04-12T08:06:55 IST" duration-ms="0" status="SKIP">
-          <exception class="org.openqa.selenium.SessionNotCreatedException">
-            <message>
-              <![CDATA[Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
-Current browser version is 135.0.3179.66 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-Host info: host: 'DESKTOP-Q8QMA40', ip: '192.168.56.1'
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: session not created: This version of Microsoft Edge WebDriver only supports Microsoft Edge version 133
-Current browser version is 135.0.3179.66 with binary path C:\Program Files (x86)\Microsoft\Edge\Application\msedge.exe 
-Host info: host: 'DESKTOP-Q8QMA40', ip: '192.168.56.1'
-Build info: version: '4.28.1', revision: '73f5ad48a2'
-System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '23'
-Driver info: org.openqa.selenium.edge.EdgeDriver
-Command: [null, newSession {capabilities=[Capabilities {browserName: MicrosoftEdge, ms:edgeOptions: {args: [], extensions: []}}]}]
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:114)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:75)
-at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:61)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:187)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:245)
-at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:174)
-at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:114)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:60)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:56)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:48)
-at org.openqa.selenium.edge.EdgeDriver.<init>(EdgeDriver.java:44)
-at driverIntializer.driverIntializer.launchdriver(driverIntializer.java:29)
-at TestCases.com_testcase_registerpage.registerPageNavigation(com_testcase_registerpage.java:32)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:71)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:400)
-at org.testng.internal.invokers.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:333)
-at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:657)
-at org.testng.TestRunner.beforeRun(TestRunner.java:646)
-at org.testng.TestRunner.run(TestRunner.java:612)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- enterMailingInformation -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.com_testcase_registerpage@4233e892]" started-at="2025-04-12T08:06:55 IST" name="closeBrowser" finished-at="2025-04-12T08:06:55 IST" duration-ms="0" status="SKIP">
+        </test-method> <!-- navigateToNewWindow -->
+        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.com_testcase_switchgToWindow@3c9bfddc]" started-at="2025-04-19T08:56:49 IST" name="closeBrowser" finished-at="2025-04-19T08:56:50 IST" duration-ms="1549" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
-      </class> <!-- TestCases.com_testcase_registerpage -->
-    </test> <!-- Test -->
-  </suite> <!-- Suite -->
+      </class> <!-- TestCases.com_testcase_switchgToWindow -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>
