@@ -39,17 +39,17 @@ public class com_testcase_download_upload {
 	@Test
 	public void enterContactInformation() throws IOException
 	{
+//	     String path = System.getProperty("user.dir") + "\\uploadtestdata\\dummy.txt";
+//		 driverIntializer.driver.findElement(By.xpath("//input[@id='uploadFile']")).sendKeys(path);
 		
-		 driverIntializer.driver.findElement(By.xpath("//a[@id='downloadButton']")).click();
-		 
-		
+		driverIntializer.driver.findElement(By.xpath("//a[@id='downloadButton']")).click();
 	}
 	
 	
 	@AfterTest
 	public void  closeBrowser()
 	{
-		//driverIntializer.closebrowser();
+		driverIntializer.closebrowser();
 		
 	}
 }

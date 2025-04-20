@@ -24,6 +24,8 @@ public interface resusebaleData {
     public static String waittUrl="https://www.hyrtutorials.com/p/waits-demo.html";
     public static String sheetname_mailInfo="ContactInformation";
     public static String pagination="https://www.scrapingcourse.com/ecommerce/";
+    public static String RESTAPI_URL="https://api.restful-api.dev/";
+    public static String PostReq_Endpoint="objects";
     public static String regiterORPath="D:\\eclipse\\Batch51_Cusip\\ObjectRepository\\registerOR.properties";
     public static String excelpath="D:\\eclipse\\Batch51_Cusip\\src\\test\\resources\\ResgisterInformation_testData.xlsx";
 

@@ -2,24 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-19T08:56:13 IST" name="Default suite" finished-at="2025-04-19T08:56:50 IST" duration-ms="37875">
+  <suite started-at="2025-04-20T09:29:05 IST" name="Default suite" finished-at="2025-04-20T09:29:12 IST" duration-ms="6079">
     <groups>
     </groups>
-    <test started-at="2025-04-19T08:56:13 IST" name="Default test" finished-at="2025-04-19T08:56:50 IST" duration-ms="37875">
-      <class name="TestCases.com_testcase_switchgToWindow">
-        <test-method is-config="true" signature="registerPageNavigation()[pri:0, instance:TestCases.com_testcase_switchgToWindow@3c9bfddc]" started-at="2025-04-19T08:56:13 IST" name="registerPageNavigation" finished-at="2025-04-19T08:56:29 IST" duration-ms="16539" status="PASS">
+    <test started-at="2025-04-20T09:29:05 IST" name="Default test" finished-at="2025-04-20T09:29:12 IST" duration-ms="6079">
+      <class name="API_TestCases.com_API_testcase_createUser">
+        <test-method signature="enterContactInformation()[pri:0, instance:API_TestCases.com_API_testcase_createUser@5cdd09b1]" started-at="2025-04-20T09:29:06 IST" name="enterContactInformation" finished-at="2025-04-20T09:29:12 IST" duration-ms="5946" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- registerPageNavigation -->
-        <test-method signature="navigateToNewWindow()[pri:0, instance:TestCases.com_testcase_switchgToWindow@3c9bfddc]" started-at="2025-04-19T08:56:29 IST" name="navigateToNewWindow" finished-at="2025-04-19T08:56:49 IST" duration-ms="19226" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- navigateToNewWindow -->
-        <test-method is-config="true" signature="closeBrowser()[pri:0, instance:TestCases.com_testcase_switchgToWindow@3c9bfddc]" started-at="2025-04-19T08:56:49 IST" name="closeBrowser" finished-at="2025-04-19T08:56:50 IST" duration-ms="1549" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeBrowser -->
-      </class> <!-- TestCases.com_testcase_switchgToWindow -->
+        </test-method> <!-- enterContactInformation -->
+      </class> <!-- API_TestCases.com_API_testcase_createUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
