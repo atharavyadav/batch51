@@ -1,16 +1,118 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="0" total="1" passed="0" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-04-20T09:29:05 IST" name="Default suite" finished-at="2025-04-20T09:29:12 IST" duration-ms="6079">
+  <suite started-at="2025-05-03T07:42:30 IST" name="Default suite" finished-at="2025-05-03T07:42:40 IST" duration-ms="9671">
     <groups>
     </groups>
-    <test started-at="2025-04-20T09:29:05 IST" name="Default test" finished-at="2025-04-20T09:29:12 IST" duration-ms="6079">
+    <test started-at="2025-05-03T07:42:30 IST" name="Default test" finished-at="2025-05-03T07:42:40 IST" duration-ms="9671">
       <class name="API_TestCases.com_API_testcase_createUser">
-        <test-method signature="enterContactInformation()[pri:0, instance:API_TestCases.com_API_testcase_createUser@5cdd09b1]" started-at="2025-04-20T09:29:06 IST" name="enterContactInformation" finished-at="2025-04-20T09:29:12 IST" duration-ms="5946" status="PASS">
+        <test-method signature="assertData()[pri:3, instance:API_TestCases.com_API_testcase_createUser@61ce23ac]" started-at="2025-05-03T07:42:30 IST" name="assertData" finished-at="2025-05-03T07:42:40 IST" duration-ms="9421" status="FAIL">
+          <exception class="java.lang.IllegalArgumentException">
+            <message>
+              <![CDATA[Invalid JSON expression:
+Script1.groovy: 1: unable to resolve class                          CPU
+ @ line 1, column 31.
+                            CPU model
+                                 ^
+
+1 error
+]]>
+            </message>
+            <full-stacktrace>
+              <![CDATA[java.lang.IllegalArgumentException: Invalid JSON expression:
+Script1.groovy: 1: unable to resolve class                          CPU
+ @ line 1, column 31.
+                            CPU model
+                                 ^
+
+1 error
+
+at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
+at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:501)
+at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:485)
+at org.codehaus.groovy.reflection.CachedConstructor.invoke(CachedConstructor.java:73)
+at org.codehaus.groovy.runtime.callsite.ConstructorSite$ConstructorSiteNoUnwrapNoCoerce.callConstructor(ConstructorSite.java:108)
+at org.codehaus.groovy.runtime.callsite.CallSiteArray.defaultCallConstructor(CallSiteArray.java:57)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:263)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callConstructor(AbstractCallSite.java:286)
+at io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:66)
+at io.restassured.internal.path.json.JSONAssertion$getAsJsonObject.callCurrent(Unknown Source)
+at io.restassured.internal.path.json.JSONAssertion.getResult(JSONAssertion.groovy:28)
+at io.restassured.path.json.JsonPath.get(JsonPath.java:203)
+at io.restassured.path.json.JsonPath.getString(JsonPath.java:352)
+at API_TestCases.com_API_testcase_createUser.assertData(com_API_testcase_createUser.java:57)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
+at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:687)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
+at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
+at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:995)
+at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
+at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
+at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
+at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
+at org.testng.TestRunner.privateRun(TestRunner.java:741)
+at org.testng.TestRunner.run(TestRunner.java:616)
+at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
+at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
+at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
+at org.testng.SuiteRunner.run(SuiteRunner.java:312)
+at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
+at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
+at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
+at org.testng.TestNG.runSuites(TestNG.java:1112)
+at org.testng.TestNG.run(TestNG.java:1079)
+at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
+at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
+at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
+Caused by: org.codehaus.groovy.control.MultipleCompilationErrorsException: startup failed:
+Script1.groovy: 1: unable to resolve class restAssuredJsonRootObject.CPU
+ @ line 1, column 31.
+   restAssuredJsonRootObject.CPU model
+                                 ^
+
+1 error
+
+at org.codehaus.groovy.control.ErrorCollector.failIfErrors(ErrorCollector.java:292)
+at org.codehaus.groovy.control.CompilationUnit$ISourceUnitOperation.doPhaseOperation(CompilationUnit.java:910)
+at org.codehaus.groovy.control.CompilationUnit.processPhaseOperations(CompilationUnit.java:692)
+at org.codehaus.groovy.control.CompilationUnit.compile(CompilationUnit.java:666)
+at groovy.lang.GroovyClassLoader.doParseClass(GroovyClassLoader.java:373)
+at groovy.lang.GroovyClassLoader.lambda$parseClass$2(GroovyClassLoader.java:316)
+at org.codehaus.groovy.runtime.memoize.StampedCommonCache.compute(StampedCommonCache.java:163)
+at org.codehaus.groovy.runtime.memoize.StampedCommonCache.getAndPut(StampedCommonCache.java:154)
+at groovy.lang.GroovyClassLoader.parseClass(GroovyClassLoader.java:314)
+at groovy.lang.GroovyShell.parseClass(GroovyShell.java:572)
+at groovy.lang.GroovyShell.parse(GroovyShell.java:585)
+at groovy.lang.GroovyShell.parse(GroovyShell.java:597)
+at groovy.lang.GroovyShell.evaluate(GroovyShell.java:459)
+at groovy.lang.GroovyShell.evaluate(GroovyShell.java:495)
+at groovy.lang.GroovyShell.evaluate(GroovyShell.java:469)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrap.invoke(PogoMetaMethodSite.java:186)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.call(PogoMetaMethodSite.java:75)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.call(AbstractCallSite.java:139)
+at io.restassured.internal.path.json.JSONAssertion.eval(JSONAssertion.groovy:89)
+at io.restassured.internal.path.json.JSONAssertion.this$2$eval(JSONAssertion.groovy)
+at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
+at java.base/java.lang.reflect.Method.invoke(Method.java:580)
+at org.codehaus.groovy.runtime.callsite.PlainObjectMetaMethodSite.doInvoke(PlainObjectMetaMethodSite.java:43)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite$PogoCachedMethodSiteNoUnwrapNoCoerce.invoke(PogoMetaMethodSite.java:198)
+at org.codehaus.groovy.runtime.callsite.PogoMetaMethodSite.callCurrent(PogoMetaMethodSite.java:62)
+at org.codehaus.groovy.runtime.callsite.AbstractCallSite.callCurrent(AbstractCallSite.java:203)
+at io.restassured.internal.path.json.JSONAssertion.getAsJsonObject(JSONAssertion.groovy:46)
+... 31 more
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.IllegalArgumentException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- enterContactInformation -->
+        </test-method> <!-- assertData -->
       </class> <!-- API_TestCases.com_API_testcase_createUser -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->

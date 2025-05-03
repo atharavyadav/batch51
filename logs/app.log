@@ -256,3 +256,145 @@
         "Hard disk size": "1 TB"
     }
 }
+2025-05-03 07:16:15 INFO  com_testcase_calender:31 - My status code for post req is 200
+2025-05-03 07:16:15 INFO  com_testcase_calender:32 - My status body for post req is {
+    "id": "ff808181932badb6019693d29b9c2a82",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-05-03T01:46:15.324+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-05-03 07:21:28 INFO  com_testcase_calender:32 - My status code for post req is 200
+2025-05-03 07:21:28 INFO  com_testcase_calender:33 - My status body for post req is {
+    "id": "ff808181932badb6019693d7608a2a87",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-05-03T01:51:27.883+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-05-03 07:21:30 INFO  com_testcase_calender:37 - data fetched isff808181932badb6019693d7608a2a87
+2025-05-03 07:22:34 INFO  com_testcase_calender:32 - My status code for post req is 200
+2025-05-03 07:22:34 INFO  com_testcase_calender:33 - My status body for post req is {
+    "id": "ff808181932badb6019693d864a92a88",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-05-03T01:52:34.473+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-05-03 07:23:21 INFO  com_testcase_calender:32 - My status code for post req is 200
+2025-05-03 07:23:21 INFO  com_testcase_calender:33 - My status body for post req is {
+    "id": "ff808181932badb6019693d91a742a8a",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-05-03T01:53:21.012+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-05-03 07:23:22 INFO  com_testcase_calender:37 - data fetched is1849.99
+2025-05-03 07:28:11 INFO  com_testcase_calender:32 - My status code for post req is 200
+2025-05-03 07:28:11 INFO  com_testcase_calender:33 - My status body for post req is {
+    "id": "ff808181932badb6019693dd88b12a8d",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-05-03T01:58:11.377+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-05-03 07:28:14 INFO  com_testcase_calender:39 - My status code for get req is 200
+2025-05-03 07:28:14 INFO  com_testcase_calender:40 - My status body for get req is {
+    "id": "ff808181932badb6019693dd88b12a8d",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-05-03 07:37:24 INFO  com_testcase_calender:32 - My status code for post req is 200
+2025-05-03 07:37:25 INFO  com_testcase_calender:33 - My status body for post req is {
+    "id": "ff808181932badb6019693e5fac12a95",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-05-03T02:07:24.865+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-05-03 07:37:27 INFO  com_testcase_calender:44 - My status code for get req is 200
+2025-05-03 07:37:27 INFO  com_testcase_calender:45 - My status body for get req is {
+    "id": "ff808181932badb6019693e5fac12a95",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-05-03 07:41:48 INFO  com_testcase_calender:33 - My status code for post req is 200
+2025-05-03 07:41:48 INFO  com_testcase_calender:34 - My status body for post req is {
+    "id": "ff808181932badb6019693e9ffe72a96",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-05-03T02:11:48.327+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-05-03 07:41:52 INFO  com_testcase_calender:45 - My status code for get req is 200
+2025-05-03 07:41:52 INFO  com_testcase_calender:46 - My status body for get req is {
+    "id": "ff808181932badb6019693e9ffe72a96",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-05-03 07:42:37 INFO  com_testcase_calender:33 - My status code for post req is 200
+2025-05-03 07:42:37 INFO  com_testcase_calender:34 - My status body for post req is {
+    "id": "ff808181932badb6019693eabe8f2a97",
+    "name": "Apple MacBook Pro 16",
+    "createdAt": "2025-05-03T02:12:37.136+00:00",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}
+2025-05-03 07:42:39 INFO  com_testcase_calender:45 - My status code for get req is 200
+2025-05-03 07:42:39 INFO  com_testcase_calender:46 - My status body for get req is {
+    "id": "ff808181932badb6019693eabe8f2a97",
+    "name": "Apple MacBook Pro 16",
+    "data": {
+        "year": 2019,
+        "price": 1849.99,
+        "CPU model": "Intel Core i9",
+        "Hard disk size": "1 TB"
+    }
+}

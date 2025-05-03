@@ -3,13 +3,11 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestCases.com_testcase_calender">
+      <class name="API_TestCases.com_API_testcase_createUser">
         <methods>
-          <include name="enterContactInformation"/>
-          <include name="registerPageNavigation"/>
-          <include name="closeBrowser"/>
+          <include name="assertData"/>
         </methods>
-      </class> <!-- TestCases.com_testcase_calender -->
+      </class> <!-- API_TestCases.com_API_testcase_createUser -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

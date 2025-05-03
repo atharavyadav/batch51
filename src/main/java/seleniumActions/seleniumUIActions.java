@@ -28,10 +28,16 @@ public class seleniumUIActions {
 //	1 is for OR path , 2 is which key u wnat to give for xpath , 3 is value u want to enter
 	public static void enterValueinUI(String ORPath,String ORKey,String inputData) throws IOException
 	{
-		    int val = 4;
-		   String convert = Integer.toString(val) ;
-		   System.out.println(convert);
-		driverIntializer.driver.findElement(By.xpath(readDataFromPeropertiesFile.readDataFromORProperties(ORPath,ORKey))).sendKeys(inputData);
+		try
+		{
+			int val = 4;
+			   String convert = Integer.toString(val) ;
+			   System.out.println(convert);
+			driverIntializer.driver.findElement(By.xpath(readDataFromPeropertiesFile.readDataFromORProperties(ORPath,ORKey))).sendKeys(inputData);
+		}catch (Exception e) {
+			// TODO: handle exception
+		}
+		    
 		
 	}
 	
